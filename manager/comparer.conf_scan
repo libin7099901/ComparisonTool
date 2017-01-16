@@ -1,0 +1,105 @@
+[CompareConfig]
+
+not_skip_different_file=False
+
+need_result_file=True
+need_csv_file=True
+
+# 待比对文件的路径,支持相对路径
+
+# 扫描版
+
+# IDCard
+# stand
+#left_path=..\TestData\ScanVersion\IDCard\stand_all
+#left_path=..\TestData\ScanVersion\IDCard\stand_front
+left_path=..\TestData\ScanVersion\IDCard\stand_back
+
+# JT
+#right_path=..\TestData\ScanVersion\IDCard\JT_all
+
+#result_file_path=..\TestData\ScanVersion\IDCard\JT_All_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\IDCard\JT_Front_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\IDCard\JT_Back_compare_result.txt
+
+# JT_C_SDK_Local_Default
+right_path=..\TestData\ScanVersion\IDCard\JT_C_SDK_Local_Default
+
+#result_file_path=..\TestData\ScanVersion\IDCard\JT_C_SDK_Local_Default_All_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\IDCard\JT_C_SDK_Local_Default_Front_compare_result.txt
+result_file_path=..\TestData\ScanVersion\IDCard\JT_C_SDK_Local_Default_Back_compare_result.txt
+
+# YM
+#right_path=..\TestData\ScanVersion\IDCard\YM
+
+#result_file_path=..\TestData\ScanVersion\IDCard\YM_All_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\IDCard\YM_Front_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\IDCard\YM_Back_compare_result.txt
+
+# WT
+#right_path=..\TestData\ScanVersion\IDCard\WT
+
+#result_file_path=..\TestData\ScanVersion\IDCard\WT_All_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\IDCard\WT_Front_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\IDCard\WT_Back_compare_result.txt
+
+# ------------------------------------------------------------------
+# bizcard
+# stand
+#left_path=..\TestData\ScanVersion\BizCard\stand_all
+#left_path=..\TestData\ScanVersion\BizCard\stand_WT
+#left_path=..\TestData\ScanVersion\BizCard\stand_HW
+#left_path=..\TestData\ScanVersion\BizCard\stand_YM
+#left_path=..\TestData\ScanVersion\BizCard\stand_HH
+
+# JT
+#right_path=..\TestData\ScanVersion\BizCard\JT_cloud_default
+#right_path=..\TestData\ScanVersion\BizCard\JT_cloud_no_cutedge
+#result_file_path=..\TestData\ScanVersion\BizCard\JT_bizcard_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\BizCard\JT_bizcard_no_cutedge_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\BizCard\JT_bizcard_no_cutedge_compare_result_by_WT_stand.txt
+#result_file_path=..\TestData\ScanVersion\BizCard\JT_bizcard_no_cutedge_compare_result_by_HW_stand.txt
+#result_file_path=..\TestData\ScanVersion\BizCard\JT_bizcard_no_cutedge_compare_result_by_YM_stand.txt
+#result_file_path=..\TestData\ScanVersion\BizCard\JT_bizcard_no_cutedge_compare_result_by_HH_stand.txt
+
+# JT_Local
+#right_path=..\TestData\ScanVersion\BizCard\JC_C_SDK_Local_Default
+#result_file_path=..\TestData\ScanVersion\BizCard\JT_C_SDK_Local_bizcard_compare_result.txt
+
+# WT
+#right_path=..\TestData\ScanVersion\BizCard\WT
+#result_file_path=..\TestData\ScanVersion\BizCard\WT_bizcard_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\BizCard\WT_bizcard_compare_result_by_WT_stand.txt
+
+# HW
+#right_path=..\TestData\ScanVersion\BizCard\HW
+#result_file_path=..\TestData\ScanVersion\BizCard\HW_bizcard_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\BizCard\HW_bizcard_compare_result_by_HW_stand.txt
+
+
+# YM
+#right_path=..\TestData\ScanVersion\BizCard\YM
+#result_file_path=..\TestData\ScanVersion\BizCard\YM_bizcard_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\BizCard\YM_bizcard_compare_result_by_YM_stand.txt
+
+
+# HH
+#right_path=..\TestData\ScanVersion\BizCard\HH
+#result_file_path=..\TestData\ScanVersion\BizCard\HH_bizcard_compare_result.txt
+#result_file_path=..\TestData\ScanVersion\BizCard\HH_bizcard_compare_result_by_HH_stand.txt
+
+
+#---------------------不需要修改-----------------------
+
+# 以哪个目录为基准, 将用此目录中的信息作为统计结果的分母, 可选值为left_path和right_path(暂不支持调整,请勿修改该值)
+standard_path=left_path
+# 是否支持以递归的形式比对子目录(暂不支持,请设为False)
+recursion_compare=False
+
+
+# Test Path
+#left_path=..\TestData\Test\stand
+#right_path=..\TestData\Test\
+#result_file_path=..\TestData\Test\result.txt
+
+

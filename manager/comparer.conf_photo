@@ -1,0 +1,181 @@
+[CompareConfig]
+
+not_skip_different_file=True
+need_result_file=True
+need_csv_file=True
+
+# 待比对文件的路径,支持相对路径
+
+# 拍照版
+
+# IDCard
+# stand
+#left_path=..\TestData\PhotographVersion\IDCard\stand
+#left_path=..\TestData\PhotographVersion\IDCard\stand_front
+#left_path=..\TestData\PhotographVersion\IDCard\stand_back
+
+# JT
+#right_path=..\TestData\PhotographVersion\IDCard\result
+#right_path=..\TestData\PhotographVersion\IDCard\result_front
+#right_path=..\TestData\PhotographVersion\IDCard\result_back
+
+#result_file_path=..\TestData\PhotographVersion\IDCard\jt_all_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\jt_front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\jt_back_compare_result.txt
+
+# JT_C_Local
+#right_path=..\TestData\PhotographVersion\IDCard\JT_C_Local
+#result_file_path=..\TestData\PhotographVersion\IDCard\jt_C_Local_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\jt_C_Local_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\jt_C_Local_Back_compare_result.txt
+
+## SDKs -------------------------------------------------------------------------------------------
+# C -----------
+# cutedge=no
+#right_path=..\TestData\PhotographVersion\IDCard\JT_Win32C_big_model_new_cutedge\idcard_cutedge_no
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Win32C_big_model_new_cutedge\jt_C_Local_no_cutedge_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Win32C_big_model_new_cutedge\jt_C_Local_no_cutedge_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Win32C_big_model_new_cutedge\jt_C_Local_no_cutedge_Back_compare_result.txt
+
+# cutedge=yes
+#right_path=..\TestData\PhotographVersion\IDCard\JT_Win32C_big_model_new_cutedge\idcard_cutedge_yes
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Win32C_big_model_new_cutedge\jt_C_Local_yes_cutedge_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Win32C_big_model_new_cutedge\jt_C_Local_yes_cutedge_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Win32C_big_model_new_cutedge\jt_C_Local_yes_cutedge_Back_compare_result.txt
+
+# Android -----------
+# cutedge=no
+#right_path=..\TestData\PhotographVersion\IDCard\JT_Android_big_model_new_cutedge\idcard_cutedge_no
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Android_big_model_new_cutedge\jt_Android_Local_no_cutedge_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Android_big_model_new_cutedge\jt_Android_Local_no_cutedge_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Android_big_model_new_cutedge\jt_Android_Local_no_cutedge_Back_compare_result.txt
+
+# cutedge=yes
+#right_path=..\TestData\PhotographVersion\IDCard\JT_Android_big_model_new_cutedge\idcard_cutedge_yes
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Android_big_model_new_cutedge\jt_Android_Local_yes_cutedge_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Android_big_model_new_cutedge\jt_Android_Local_yes_cutedge_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Android_big_model_new_cutedge\jt_Android_Local_yes_cutedge_Back_compare_result.txt
+
+# iOS -----------
+# cutedge=no
+#right_path=..\TestData\PhotographVersion\IDCard\JT_iOS_big_model_new_cutedge\idcard_cutedge_no
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_iOS_big_model_new_cutedge\jt_iOS_Local_no_cutedge_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_iOS_big_model_new_cutedge\jt_iOS_Local_no_cutedge_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_iOS_big_model_new_cutedge\jt_iOS_Local_no_cutedge_Back_compare_result.txt
+
+# cutedge=yes
+#right_path=..\TestData\PhotographVersion\IDCard\JT_iOS_big_model_new_cutedge\idcard_cutedge_yes
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_iOS_big_model_new_cutedge\jt_iOS_Local_yes_cutedge_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_iOS_big_model_new_cutedge\jt_iOS_Local_yes_cutedge_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_iOS_big_model_new_cutedge\jt_iOS_Local_yes_cutedge_Back_compare_result.txt
+
+## SDKs -------------------------------------------------------------------------------------------
+
+# JT_IOS_Local
+#right_path=..\TestData\PhotographVersion\IDCard\JT_IOS_Local
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_IOS_Local_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_IOS_Local_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_IOS_Local_Back_compare_result.txt
+
+# JT_Android_Local
+#right_path=..\TestData\PhotographVersion\IDCard\JT_Android_Local
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Android_Local_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Android_Local_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\JT_Android_Local_Back_compare_result.txt
+
+# YM
+#right_path=..\TestData\PhotographVersion\IDCard\YM\result
+#result_file_path=..\TestData\PhotographVersion\IDCard\YM\YM_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\YM\YM_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\YM\YM_Back_compare_result.txt
+
+# WT
+#right_path=..\TestData\PhotographVersion\IDCard\WT\result
+#result_file_path=..\TestData\PhotographVersion\IDCard\WT\WT_All_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\WT\WT_Front_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\IDCard\WT\WT_Back_compare_result.txt
+
+# ------------------------------------------------------------------
+# bizcard
+# stand
+left_path=..\TestData\PhotographVersion\BizCard\stand
+#left_path=..\TestData\PhotographVersion\BizCard\stand_WT
+#left_path=..\TestData\PhotographVersion\BizCard\stand_HW
+#left_path=..\TestData\PhotographVersion\BizCard\stand_YM
+#left_path=..\TestData\PhotographVersion\BizCard\stand_HH
+
+# JT
+#right_path=..\TestData\PhotographVersion\BizCard\JT
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_bizcard_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_bizcard_compare_result_by_WT_stand.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_bizcard_compare_result_by_HW_stand.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_bizcard_compare_result_by_YM_stand.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_bizcard_compare_result_by_HH_stand.txt
+
+# JT_Engine
+#right_path=..\TestData\PhotographVersion\BizCard\engine_bizcard_cutedge_yes
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_engine_bizcard_compare_result.txt
+
+# JT_Local
+#right_path=..\TestData\PhotographVersion\BizCard\JT_Local
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_Local_bizcard_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_Local_bizcard_compare_result_by_WT_stand.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_Local_bizcard_compare_result_by_HW_stand.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_Local_bizcard_compare_result_by_YM_stand.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_Local_bizcard_compare_result_by_HH_stand.txt
+
+# JT_IOS_Local
+#right_path=..\TestData\PhotographVersion\BizCard\JT_IOS_Local
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_IOS_Local_bizcard_compare_result.txt
+
+# JT_Android_Local
+#right_path=..\TestData\PhotographVersion\BizCard\JT_Android_Local
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_Android_Local_bizcard_compare_result.txt
+
+# JT_C_Local
+#right_path=..\TestData\PhotographVersion\BizCard\JT_C_Local
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_C_Local_bizcard_compare_result.txt
+
+# JT_C_Local_cut_no
+#right_path=..\TestData\PhotographVersion\BizCard\JT_C_SDK_Local_big_model_new_cutedge\bizcard_cutedge_no
+#result_file_path=..\TestData\PhotographVersion\BizCard\JT_C_SDK_Local_big_model_new_cutedge\JT_C_Local_cut_no_bizcard_compare_result.txt
+
+# JT_C_Local_cut_yes
+right_path=..\TestData\PhotographVersion\BizCard\JT_C_SDK_Local_big_model_new_cutedge\bizcard_cutedge_yes
+result_file_path=..\TestData\PhotographVersion\BizCard\JT_C_SDK_Local_big_model_new_cutedge\JT_C_Local_cut_yes_bizcard_compare_result.txt
+
+# WT
+#right_path=..\TestData\PhotographVersion\BizCard\WT
+#result_file_path=..\TestData\PhotographVersion\BizCard\WT_bizcard_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\WT_bizcard_compare_result_by_WT_stand.txt
+
+# HW
+#right_path=..\TestData\PhotographVersion\BizCard\HW
+#result_file_path=..\TestData\PhotographVersion\BizCard\HW_bizcard_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\HW_bizcard_compare_result_by_HW_stand.txt
+
+
+# YM
+#right_path=..\TestData\PhotographVersion\BizCard\YM
+#result_file_path=..\TestData\PhotographVersion\BizCard\YM_bizcard_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\YM_bizcard_compare_result_by_YM_stand.txt
+
+
+# HH
+#right_path=..\TestData\PhotographVersion\BizCard\HH
+#result_file_path=..\TestData\PhotographVersion\BizCard\HH_bizcard_compare_result.txt
+#result_file_path=..\TestData\PhotographVersion\BizCard\HH_bizcard_compare_result_by_HH_stand.txt
+
+
+#---------------------不需要修改-----------------------
+
+# 以哪个目录为基准, 将用此目录中的信息作为统计结果的分母, 可选值为left_path和right_path(暂不支持调整,请勿修改该值)
+standard_path=left_path
+# 是否支持以递归的形式比对子目录(暂不支持,请设为False)
+recursion_compare=False
+
+
+# Test Path
+#left_path=..\TestData\Test\stand
+#right_path=..\TestData\PhotographVersion\BizCard\mingpian_12292
+#result_file_path=..\TestData\result.txt

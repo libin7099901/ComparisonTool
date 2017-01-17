@@ -126,6 +126,14 @@ stand_change_map = {
     "emall": "email"
 }
 
+bankcard_wt_map = {
+    "卡号": "cardnumber",
+    "银行卡类型": "cardtype",
+    "银行卡名称": "cardnum",
+    "银行名称": "bankname",
+    "银行编号": ""
+}
+
 
 def change_tag(file_path, map):
     contents = []
@@ -161,6 +169,6 @@ def change_tag(file_path, map):
 
 
 if __name__ == "__main__":
-    path = r"D:\PythonWorkSpaces\OtherWorkSpaces\ComparisonTool\TestData\ScanVersion\VAT\YM_result_11pic"
+    path = r"D:\PythonWorkSpaces\OtherWorkSpaces\ComparisonTool\TestData\PhotographVersion\BankCard\WT"
     for file in os.listdir(path):
-        change_tag(os.path.join(path, file), vat_ym_map)
+        change_tag(os.path.join(path, file), bankcard_wt_map)

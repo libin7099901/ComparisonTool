@@ -152,7 +152,8 @@ class WordCompare(Compare):
                 right_tokens = list(right_word.decode("GBK"))
             except UnicodeDecodeError:
                 print right_word
-                right_tokens = list(right_word.decode("GBK"))
+                # right_tokens = list(right_word.decode("GBK"))
+                right_tokens = []
 
         # 将list中的每个字符转换为UTF-8格式
         for i in range(len(left_tokens)):

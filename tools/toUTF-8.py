@@ -56,8 +56,8 @@ def get_format_info_from_file(format_file):
 
 
 if __name__ == "__main__":
-    file_path = r"D:\PythonWorkSpaces\OtherWorkSpaces\ComparisonTool\TestData\ScanVersion\VAT\stand"
-    file_list = get_format_info_from_file("./file_format_list/file_list_vat")
+    file_path = r"D:\PythonWorkSpaces\OtherWorkSpaces\ComparisonTool\TestData\PhotographVersion\BankCard\JT_engine_8815"
+    file_list = get_format_info_from_file("./file_format_list/file_list_bankcard_jt_engine_8815")
     for file in file_list:
         # print file
         change(file_path, file)

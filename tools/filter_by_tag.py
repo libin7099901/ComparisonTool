@@ -94,7 +94,8 @@ def do_filter(source_path, target_path, tags, is_include=True):
     依据tag分割文件
     :param source_path:源目录
     :param target_path:目标目录
-    :param tags:需要保留的tag
+    :param tags:tag
+    :param is_include:True包含这些tag,Flase:不包含这些tag
     :return:None
     '''
     for file in os.listdir(source_path):
@@ -131,9 +132,9 @@ def do_filter(source_path, target_path, tags, is_include=True):
 
 
 if __name__ == "__main__":
-    source_path = r"../TestData/ScanVersion\VAT\stand"
-    target_path = r"../TestData/ScanVersion\VAT\stand_YM"
+    source_path = r"D:\PythonWorkSpaces\OtherWorkSpaces\ComparisonTool\TestData\PhotographVersion\BankCard\stand"
+    target_path = r"D:\PythonWorkSpaces\OtherWorkSpaces\ComparisonTool\TestData\PhotographVersion\BankCard\stand_only_validdate"
     # filter_tags = bizcard_hh_map.values()
     # print set(filter_tags)
-    do_filter(source_path, target_path, vat_ym_not_include_tag, is_include=False)
+    do_filter(source_path, target_path, ["validdate"], is_include=True)
     print item_names

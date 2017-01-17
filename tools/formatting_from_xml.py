@@ -102,7 +102,7 @@ def write_verify_result(filepath, str_result):
 
 
 if __name__ == "__main__":
-    source_path=r"D:\PythonWorkSpaces\OtherWorkSpaces\ComparisonTool\TestData\ScanVersion\VAT\JT_engine_result_r8928_add_entry"
+    source_path=r"D:\PythonWorkSpaces\OtherWorkSpaces\ComparisonTool\TestData\ScanVersion\VAT\JT_engine_result_r8953"
     target_path=source_path
 
     for file in os.listdir(source_path):
